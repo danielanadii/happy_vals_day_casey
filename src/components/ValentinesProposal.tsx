@@ -161,7 +161,7 @@ export default function ValentinesProposal() {
                 onMouseEnter={() => setPosition(getRandomPosition())}
                 onClick={() => setPosition(getRandomPosition())}
               >
-                No, I won&apos;t 😢
+                No, I won&apos;t 🥹
               </button>
             </div>
           </motion.div>
@@ -175,8 +175,8 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Thank you for accepting, I love you! 💕
-            <p className="text-sm mt-4">For more information, write me!!! 💌</p>
+            Happy Valentine's Day, babyy! 💕
+            <p className="text-sm mt-4">No words can truly capture how much I love you!!! 💌<br>I choose you every day, not just today. Always you.</br><br>With love, Daniel❤️</br></p>
             <Image
               src="/hamster_jumping.gif"
               alt="Hamster Feliz"

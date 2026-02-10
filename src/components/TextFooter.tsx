@@ -13,7 +13,7 @@ export default function TextFooter() {
       <h1
         className={`absolute left-10 bottom-5 transform -translate-y-1/2 text-white text-4xl lg:text-5xl font-bold leading-tight ${playfairDisplay.className}`}
       >
-        <span className="text-gray-400">Match</span> <br /> the photo pairs
+        <span className="text-gray-400">Match</span> <br /> our memories
       </h1>
 
       {/* Right Text */}
@@ -25,8 +25,8 @@ export default function TextFooter() {
 
       {/* Copyright */}
       <p className="absolute bottom-5 right-5 text-white text-sm opacity-15 hover:opacity-50">
-        © {new Date().getFullYear()}{" "}
-        <Link href="https://visibait.com">visibait.com</Link>
+        {/* © {new Date().getFullYear()}{" "}*/}
+        © 2026 Daniel For Casey❤️
       </p>
     </>
   );
