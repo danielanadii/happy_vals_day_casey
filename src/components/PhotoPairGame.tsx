@@ -93,13 +93,11 @@ export default function PhotoPairGame({
       {/* Image preload */}
       <div className="hidden">
         {images.map((image, i) => (
-          <Image
+          <img
             key={i}
             src={image}
             alt={`Image ${i + 1}`}
-            fill
             className="object-cover"
-            priority
           />
         ))}
       </div>
@@ -138,10 +136,9 @@ export default function PhotoPairGame({
                 transition={{ duration: 0.5 }}
                 style={{ backfaceVisibility: "hidden" }}
               >
-                <Image
+                <img
                   src={images[index]}
                   alt={`Imagen ${index + 1}`}
-                  fill
                   className="rounded-sm lg:rounded-md object-cover"
                 />
               </motion.div>
