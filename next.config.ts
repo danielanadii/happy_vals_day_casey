@@ -1,7 +1,12 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  // Your Next.js config
-};
+  output: 'export',
+  basePath: '/happy_vals_day_casey',
+  assetPrefix: '/happy_vals_day_casey/',
+  images: {
+    unoptimized: true,
+  },
+}
 
-export default nextConfig;
+export default nextConfig
