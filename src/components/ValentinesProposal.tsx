@@ -135,7 +135,7 @@ export default function ValentinesProposal() {
               Will you be my Valentine?
             </h2>
             <Image
-              src="/sad_hamster.png"
+              src="/hehe.png"
               alt="Sad Hamster"
               width={200}
               height={200}
