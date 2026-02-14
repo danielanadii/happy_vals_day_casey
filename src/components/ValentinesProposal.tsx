@@ -11,42 +11,42 @@ const playfairDisplay = Playfair_Display({
 
 // 36 images
 const images = [
-  "/game-photos/1.avif",
-  "/game-photos/2.avif",
-  "/game-photos/3.avif",
-  "/game-photos/4.avif",
-  "/game-photos/5.avif",
-  "/game-photos/6.avif",
-  "/game-photos/7.avif",
-  "/game-photos/8.avif",
-  "/game-photos/9.avif",
-  "/game-photos/10.avif",
-  "/game-photos/11.avif",
-  "/game-photos/12.avif",
-  "/game-photos/13.avif",
-  "/game-photos/14.avif",
-  "/game-photos/15.avif",
-  "/game-photos/16.avif",
-  "/game-photos/17.avif",
-  "/game-photos/18.avif",
-  "/game-photos/19.avif",
-  "/game-photos/20.avif",
-  "/game-photos/21.avif",
-  "/game-photos/22.avif",
-  "/game-photos/23.avif",
-  "/game-photos/24.avif",
-  "/game-photos/25.avif",
-  "/game-photos/26.avif",
-  "/game-photos/27.avif",
-  "/game-photos/28.avif",
-  "/game-photos/29.avif",
-  "/game-photos/30.avif",
-  "/game-photos/31.avif",
-  "/game-photos/32.avif",
-  "/game-photos/33.avif",
-  "/game-photos/34.avif",
-  "/game-photos/35.avif",
-  "/game-photos/36.avif",
+  "game-photos/1.avif",
+  "game-photos/2.avif",
+  "game-photos/3.avif",
+  "game-photos/4.avif",
+  "game-photos/5.avif",
+  "game-photos/6.avif",
+  "game-photos/7.avif",
+  "game-photos/8.avif",
+  "game-photos/9.avif",
+  "game-photos/10.avif",
+  "game-photos/11.avif",
+  "game-photos/12.avif",
+  "game-photos/13.avif",
+  "game-photos/14.avif",
+  "game-photos/15.avif",
+  "game-photos/16.avif",
+  "game-photos/17.avif",
+  "game-photos/18.avif",
+  "game-photos/19.avif",
+  "game-photos/20.avif",
+  "game-photos/21.avif",
+  "game-photos/22.avif",
+  "game-photos/23.avif",
+  "game-photos/24.avif",
+  "game-photos/25.avif",
+  "game-photos/26.avif",
+  "game-photos/27.avif",
+  "game-photos/28.avif",
+  "game-photos/29.avif",
+  "game-photos/30.avif",
+  "game-photos/31.avif",
+  "game-photos/32.avif",
+  "game-photos/33.avif",
+  "game-photos/34.avif",
+  "game-photos/35.avif",
+  "game-photos/36.avif",
 ];
 
 export default function ValentinesProposal() {
@@ -91,7 +91,7 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Congratulations! You have completed the game.
+            Yeayyy! You have completed the game.
           </motion.h2>
         )}
         {step === 1 && (
@@ -103,7 +103,7 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            I have a surprise for you!
+            Btw, i have a surprise for you!
           </motion.h2>
         )}
         {step === 2 && (
@@ -136,7 +136,7 @@ export default function ValentinesProposal() {
             </h2>
             <Image
               src="/hehe.png"
-              alt="Sad Hamster"
+              alt="hehe"
               width={200}
               height={200}
             />
@@ -176,10 +176,10 @@ export default function ValentinesProposal() {
             exit={{ opacity: 0 }}
           >
             Happy Valentine's Day, babyy! 💕
-            <p className="text-sm mt-4">No words can truly capture how much I love you!!! 💌<br>I choose you every day, not just today. Always you.</br><br>With love, Daniel❤️</br></p>
+            <p className="text-sm mt-4">No words can truly capture how much I love you!!! 💌 I choose you every day, not just today. Always you. With love, Daniel❤️</p>
             <Image
-              src="/hamster_jumping.gif"
-              alt="Hamster Feliz"
+              src="hamster_jumping.gif"
+              alt="Hamster joged"
               width={200}
               height={200}
               unoptimized

@@ -6,24 +6,24 @@ import { useState, useEffect } from "react";
 
 // 18 images
 const images = [
-  "/game-photos/1.avif",
-  "/game-photos/2.avif",
-  "/game-photos/3.avif",
-  "/game-photos/4.avif",
-  "/game-photos/5.avif",
-  "/game-photos/6.avif",
-  "/game-photos/7.avif",
-  "/game-photos/8.avif",
-  "/game-photos/9.avif",
-  "/game-photos/10.avif",
-  "/game-photos/11.avif",
-  "/game-photos/12.avif",
-  "/game-photos/13.avif",
-  "/game-photos/14.avif",
-  "/game-photos/15.avif",
-  "/game-photos/16.avif",
-  "/game-photos/17.avif",
-  "/game-photos/18.avif",
+  "game-photos/1.avif",
+  "game-photos/2.avif",
+  "game-photos/3.avif",
+  "game-photos/4.avif",
+  "game-photos/5.avif",
+  "game-photos/6.avif",
+  "game-photos/7.avif",
+  "game-photos/8.avif",
+  "game-photos/9.avif",
+  "game-photos/10.avif",
+  "game-photos/11.avif",
+  "game-photos/12.avif",
+  "game-photos/13.avif",
+  "game-photos/14.avif",
+  "game-photos/15.avif",
+  "game-photos/16.avif",
+  "game-photos/17.avif",
+  "game-photos/18.avif",
 ];
 
 // Create 18 pairs of images (36 images in total)
@@ -108,7 +108,7 @@ export default function PhotoPairGame({
         index !== null ? (
           <motion.div
             key={i}
-            className="w-[11vh] h-[11vh] lg:w-20 lg:h-20 relative cursor-pointer"
+            className="w-[11.5vh] h-[11.5vh] lg:w-24 lg:h-24 relative cursor-pointer"
             whileHover={{ scale: 1.1 }}
             onClick={() => handleClick(index)}
             style={{ perspective: "1000px" }} // Add perspective for 3D effect
@@ -159,7 +159,7 @@ export default function PhotoPairGame({
             )}
           </motion.div>
         ) : (
-          <div key={i} className="w-[11vh] h-[11vh] lg:w-20 lg:h-20" />
+          <div key={i} className="w-[11.5vh] h-[11.5vh] lg:w-24 lg:h-24" />
         ),
       )}
     </div>
