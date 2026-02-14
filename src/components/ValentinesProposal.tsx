@@ -176,7 +176,7 @@ export default function ValentinesProposal() {
             exit={{ opacity: 0 }}
           >
             Happy Valentine's Day, babyy! 💕
-            <p className="text-sm mt-4">No words can truly capture how much I love you!!!\nI choose you every day, not just today. Always you.\nWith love, Daniel❤️</p>
+            <p className="text-sm mt-4">No words can truly capture how much I love you!!!<br />I choose you every day, not just today. Always you.<br />With love, Daniel❤️</p>
             <Image
               src="bunga.png"
               alt="bouquet lucuk"
