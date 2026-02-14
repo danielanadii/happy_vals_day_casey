@@ -108,7 +108,7 @@ export default function PhotoPairGame({
         index !== null ? (
           <motion.div
             key={i}
-            className="w-[11.5vh] h-[11.5vh] lg:w-24 lg:h-24 relative cursor-pointer"
+            className="w-[11.5vh] h-[11.5vh] lg:w-22 lg:h-22 relative cursor-pointer"
             whileHover={{ scale: 1.1 }}
             onClick={() => handleClick(index)}
             style={{ perspective: "1000px" }} // Add perspective for 3D effect
@@ -159,9 +159,15 @@ export default function PhotoPairGame({
             )}
           </motion.div>
         ) : (
-          <div key={i} className="w-[11.5vh] h-[11.5vh] lg:w-24 lg:h-24" />
+          <div key={i} className="w-[11.5vh] h-[11.5vh] lg:w-22 lg:h-22" />
         ),
       )}
+      <button
+  onClick={handleShowProposal}
+  className="fixed top-4 right-4 px-4 py-2 bg-pink-500 text-white rounded-md shadow-md hover:scale-105 transition"
+>
+  Skip ❤️
+</button>
     </div>
   );
 }
