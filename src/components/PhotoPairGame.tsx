@@ -162,12 +162,12 @@ export default function PhotoPairGame({
           <div key={i} className="w-[11.5vh] h-[11.5vh] lg:w-22 lg:h-22" />
         ),
       )}
-      <button
-  onClick={handleShowProposal}
-  className="fixed top-4 right-4 px-4 py-2 bg-pink-500 text-white rounded-md shadow-md hover:scale-105 transition"
->
-  Skip ❤️
-</button>
+      {/* <button
+        onClick={handleShowProposal}
+        className="fixed top-4 right-4 px-4 py-2 bg-pink-500 text-white rounded-md shadow-md hover:scale-105 transition"
+      >
+        Skip ❤️
+      </button> */}
     </div>
   );
 }
