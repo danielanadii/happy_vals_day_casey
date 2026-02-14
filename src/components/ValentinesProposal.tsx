@@ -178,10 +178,10 @@ export default function ValentinesProposal() {
             Happy Valentine's Day, babyy! 💕
             <p className="text-sm mt-4">No words can truly capture how much I love you!!!\nI choose you every day, not just today. Always you.\nWith love, Daniel❤️</p>
             <Image
-              src="hamster_jumping.gif"
-              alt="Hamster joged"
-              width={200}
-              height={200}
+              src="bunga.png"
+              alt="bouquet lucuk"
+              width={300}
+              height={300}
               unoptimized
             />
           </motion.div>
